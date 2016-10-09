@@ -10,6 +10,6 @@
 百度云盘：[**[点击下载]**](https://pan.baidu.com/s/1o8LGic6)，提取密码：3ryy，
 
 ##注意事项
-> + 双击运行无法请求引入的jsx文件，请在server模式下运行；也可拖入reactDemo目录到HBuilder编辑器，可直接Ctrl+P运行；
+> + 双击打开因无法请求引入的jsx文件，请在server模式下运行；也可拖入reactDemo目录到HBuilder编辑器，可直接`Ctrl+P`运行；
 > + 因为后面讲到的API接口是PHP语言编写的，所以建议直接配到PHP服务目录下运行；
-> + 运行http://localhost`:*`/`**`/demo.html，更改引用jsx文件查看每阶段实现效果。
+> + 运行http://localhost`:*`/`**`/demo.html，更改引用的jsx路径即可查看各阶段实现的效果。

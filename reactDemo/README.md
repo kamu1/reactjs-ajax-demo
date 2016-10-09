@@ -1,9 +1,9 @@
-��ʾ���ṩPHP��д��API���ݽӿڣ�������Ҫ����Ŀ¼���Ƶ�PHP����վ����
+﻿因本示例提供PHP编写的API数据接口，所以需要将此目录配制到PHP服务站点下
 
-�汾��PHP 5.4������
+版本在PHP 5.4及以上
 
-���ƺú����У�
+配制好后，运行：
 
-http://localhost:**/**/demo.html
+http://localhost`:*`/`**`/demo.html
 
-����demo.htmlҳ���и���script��jsx�ļ����ã����鿴��ͬʾ���׶ε�Ч��
+可在demo.html页面中更改script的jsx文件引用，来查看不同示例阶段的效果

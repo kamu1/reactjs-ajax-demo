@@ -1,7 +1,7 @@
-ÈôÏëÊ¹ÓÃmysqlÊý¾Ý¿âµÄAPI
+ï»¿è‹¥æƒ³ä½¿ç”¨mysqlæ•°æ®åº“çš„API
 
-1¡¢µ¼Èëtest.sqlµ½mysqlµÄtestÊý¾Ý¿â
+1ã€å¯¼å…¥test.sqlåˆ°mysqlçš„testæ•°æ®åº“
 
-2¡¢mysqlÄ¬ÈÏÁ´½ÓÕËºÅÊÇ£ºroot£¬ÃÜÂë£º0123456789
+2ã€mysqlé»˜è®¤é“¾æŽ¥è´¦å·æ˜¯ï¼šrootï¼Œå¯†ç ï¼š0123456789
 
-3¡¢½«ËùÓÐphpÎÄ¼þ¸´ÖÆµ½ÉÏ¼¶apiÄ¿Â¼Ìæ»»¼´¿É
+3ã€å°†æ‰€æœ‰phpæ–‡ä»¶å¤åˆ¶åˆ°ä¸Šçº§apiç›®å½•æ›¿æ¢å³å¯

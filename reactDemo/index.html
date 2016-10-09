@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ReactJS Demo</title>
+	    <style type="text/css">
+	    	*:focus{outline: none;}
+	    	#demo>*{min-width: 660px;}
+	    	#demo>div>div>*{display: inline-block;vertical-align: top;}
+	    	ol,ul{ padding:0;margin:0;list-style: none;font-size: 14px;}
+	    	ul{border:1px solid #EEE}
+	    	ul li{overflow: hidden;padding:5px 10px;border-top:1px solid #eee;cursor:default;}
+	    	ul li>*{float: left;min-width: 30px;min-height: 1em;}
+	    	ul li>*>span{display: block;min-width: 10em;}
+	    	ul>li:first-child{font-weight: bold;border-top: none;background: #ddd;}
+	    	ul li:first-child~li:hover{background: #f5f5f5;}
+	    	ul li:first-child+*>li:hover{background: #f5f5f5;}
+	    	ol li{padding:5px;}
+	    	ol li u{display: inline-block;min-width:5em;text-decoration:none;text-align: right;}
+	    </style>
+	</head>
+	<body>
+		<div id="demo">
+			<div>
+				<h2>ReactJS实例·班级信息表</h2>
+				<div>
+					<ul>
+						<li>
+							<div></div>
+							<div><span>班级名称</span></div>
+							<div><span>学员人数</span></div>
+							<div><span>指导员</span></div>
+							<div><span>建班时间</span></div>
+							<div>操作</div>
+						</li>
+						<li>
+							<div><input type="checkbox" /></div>
+							<div><span>前端开发强化1班</span></div>
+							<div><span>28人</span></div>
+							<div><span>李老师</span></div>
+							<div><span>2016-11-11</span></div>
+							<div><a href="javascript:;">删除</a></div>
+						</li>
+						<li>
+							<div><input type="checkbox" /></div>
+							<div><span>前端开发强化2班</span></div>
+							<div><span>28人</span></div>
+							<div><span>李老师</span></div>
+							<div><span>2016-11-11</span></div>
+							<div><a href="javascript:;">删除</a></div>
+						</li>
+					</ul>
+					<ol>
+						<li><label><u>班级名称：</u><input type="text" /></label></li>
+						<li><label><u>学员人数：</u><input type="text" /></label></li>
+						<li><label><u>指导员：</u><input type="text" /></label></li>
+						<li><label><u>建班时间：</u><input type="text" /></label></li>
+						<li><u></u><button>添加班级信息</button></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

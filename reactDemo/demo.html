@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>React Demo</title>
+		<script src="public/react-with-addons.min.js"></script>
+		<script src="public/react-dom.min.js"></script>
+		<script src="public/browser.min.js"></script>
+		<script src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+		<style type="text/css">
+	    	*:focus{outline: none;}
+	    	#demo>*{min-width: 660px;}
+	    	#demo>div>div>*{display: inline-block;vertical-align: top;}
+	    	ol,ul{ padding:0;margin:0;list-style: none;font-size: 14px;}
+	    	ul{border:1px solid #EEE}
+	    	ul li{transition-duration:300ms;overflow: hidden;padding:5px 10px;border-top:1px solid #eee;cursor:default;}
+	    	ul li>*{float: left;min-width: 30px;min-height: 1em;}
+	    	ul li>*>span{display: block;min-width: 10em;}
+	    	ul>li:first-child{font-weight: bold;border-top: none;background: #ddd;}
+	    	ul li:first-child~li:hover{background: #f5f5f5;}
+	    	ul li:first-child+*>li:hover{background: #f5f5f5;}
+	    	ol li{padding:5px;}
+	    	ol li u{display: inline-block;min-width:5em;text-decoration:none;text-align: right;}
+	    	
+	    	/*进入时，如：添加数据*/
+	    	.transition-enter {
+	    		opacity:0;height:0;transition: all 1s ease ;
+	    	}
+			.transition-enter.transition-enter-active {
+				opacity: 1;height:20px;
+			}
+			/*离开时，如：删除数据*/
+			.transition-leave {
+				opacity:1;height:20px;overflow:hidden;transition: all 1s ease;
+			}
+			.transition-leave.transition-leave-active {
+				opacity: 0;height:0px;
+			}
+	    </style>
+	</head>
+	<body>
+		<div id="demo"></div>
+		<script type="text/babel" src="demo.jsx"></script>
+	</body>
+</html>

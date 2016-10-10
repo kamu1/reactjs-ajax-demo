@@ -10,6 +10,7 @@
 百度云盘：[**[点击下载]**](https://pan.baidu.com/s/1o8LGic6)，提取密码：3ryy，
 
 ##注意事项
-> + 双击打开因无法请求引入的jsx文件，请在server模式下运行；也可拖入reactDemo目录到HBuilder编辑器，可直接`Ctrl+P`运行；
+> + 因双击打开无法请求引入的jsx文件，请在server模式下运行；也可拖入reactDemo目录到HBuilder编辑器，可直接`Ctrl+P`运行；
 > + 因为后面讲到的API接口是PHP语言编写的，所以建议直接配到PHP5.4以上的服务目录下运行；
+> + 无需配制数据库（API默认访问ACCESS数据库），当然api目录下也有mysql数据库文件，可自行按说明配制亦可。
 > + 运行http://localhost`:*`/`**`/demo.html，更改引用的jsx路径即可查看各阶段实现的效果。

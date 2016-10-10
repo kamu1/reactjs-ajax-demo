@@ -1,4 +1,6 @@
-﻿若想使用mysql数据库的API
+默认为读以ACCESS数据库
+
+若想使用mysql数据库的API
 
 1、导入test.sql到mysql的test数据库
 
